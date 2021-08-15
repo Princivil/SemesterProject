@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>style.css</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+style.css</font>
+</center></td></tr></table>
+<pre><span class="s0">/*google font*/</span>
+<span class="s1">@import url(</span><span class="s2">'https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&amp;display=swap'</span><span class="s1">);</span>
+<span class="s1">*{</span>
+	<span class="s1">margin: </span><span class="s3">0</span><span class="s1">;</span>
+	<span class="s1">padding: </span><span class="s3">0</span><span class="s1">;</span>
+	<span class="s1">box-sizing: border-box;</span>
+	<span class="s1">font-family: </span><span class="s2">'Poppins'</span><span class="s1">,sans-serif;</span>
+<span class="s1">}</span>
+<span class="s1">.navbar{</span>
+	<span class="s1">position: fixed;</span>
+	<span class="s1">top: </span><span class="s3">0</span><span class="s1">;</span>
+	<span class="s1">z-index: </span><span class="s3">99999</span><span class="s1">;</span>
+	<span class="s1">padding:</span><span class="s3">25</span><span class="s1">px </span><span class="s3">0</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s1">.navbar .logo{</span>
+	<span class="s1">font-size: </span><span class="s3">1</span><span class="s1">.</span><span class="s3">5</span><span class="s1">em;</span>
+	<span class="s1">text-transform: uppercase;</span>
+	<span class="s1">font-weight: </span><span class="s3">750</span><span class="s1">;</span>
+	<span class="s1">letter-spacing: </span><span class="s3">2</span><span class="s1">px;</span>
+<span class="s1">}</span>
+<span class="s1">.navbar ul.nav{</span>
+	<span class="s1">margin-right: </span><span class="s3">15</span><span class="s1">%;</span>
+<span class="s1">}</span>
+<span class="s1">.navbar ul.nav li.active,</span>
+<span class="s1">.navbar ul.nav li:hover{</span>
+	<span class="s1">background:rgba(</span><span class="s3">255</span><span class="s1">, </span><span class="s3">255</span><span class="s1">, </span><span class="s3">255</span><span class="s1">, </span><span class="s3">0.5</span><span class="s1">);</span>
+	<span class="s1">color: #</span><span class="s3">000</span><span class="s1">;</span>
+
+<span class="s1">}</span>
+<span class="s1">.navbar ul.nav li a{</span>
+	<span class="s1">color: #fff;</span>
+	<span class="s1">font-size: </span><span class="s3">1</span><span class="s1">em;</span>
+	<span class="s1">font-weight: </span><span class="s3">500</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s1">.navbar ul.nav li.active a,</span>
+<span class="s1">.navbar ul.nav li:hover a{</span>
+	<span class="s1">color: #</span><span class="s3">000</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s0">/*slider*/</span>
+<span class="s1">#carouselExampleIndicators{</span>
+	<span class="s1">position: relative;</span>
+	<span class="s1">height: </span><span class="s3">100</span><span class="s1">vh;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner{</span>
+	<span class="s1">position: relative;</span>
+	<span class="s1">height: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">background: #</span><span class="s3">000</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner:before{</span>
+	<span class="s1">position: absolute;</span>
+	<span class="s1">content: </span><span class="s2">''</span><span class="s1">;</span>
+	<span class="s1">background: rgba(</span><span class="s3">0</span><span class="s1">, </span><span class="s3">0</span><span class="s1">, </span><span class="s3">0</span><span class="s1">, </span><span class="s3">0.45</span><span class="s1">);</span>
+	<span class="s1">top: </span><span class="s3">0</span><span class="s1">;</span>
+	<span class="s1">left: </span><span class="s3">0</span><span class="s1">;</span>
+	<span class="s1">height: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">z-index: </span><span class="s3">1</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item{</span>
+	<span class="s1">position: relative;</span>
+	<span class="s1">height: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">width:</span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">background: url(static/rain.jpg);</span>
+	<span class="s1">background-size: </span><span class="s3">90</span><span class="s1">% </span><span class="s3">135</span><span class="s1">%;</span>
+	<span class="s1">background-position: center;</span>
+	<span class="s1">background-attachment: fixed;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(</span><span class="s3">2</span><span class="s1">){</span>
+	<span class="s1">background: url(static/rain.jpg);</span>
+	<span class="s1">background-size: </span><span class="s3">100</span><span class="s1">% </span><span class="s3">800</span><span class="s1">%;</span>
+	<span class="s1">background-position: center;</span>
+	<span class="s1">background-attachment: fixed;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(</span><span class="s3">3</span><span class="s1">){</span>
+	<span class="s1">background: url(static/fire.jpg);</span>
+	<span class="s1">background-size: </span><span class="s3">100</span><span class="s1">% </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">background-position: center;</span>
+	<span class="s1">background-attachment: fixed;</span>
+
+<span class="s1">}</span>
+
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item .carousel-caption d-none d-md-block{</span>
+	<span class="s1">position: absolute;</span>
+	<span class="s1">top: </span><span class="s3">50</span><span class="s1">%;</span>
+	<span class="s1">transform: translateY(-</span><span class="s3">50</span><span class="s1">%);</span>
+	<span class="s1">height: auto;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">z-index: </span><span class="s3">1</span><span class="s1">;</span>
+	<span class="s1">text-align: center;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item h1{</span>
+	<span class="s1">height: auto;</span>
+	<span class="s1">color: #fff;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">z-index: </span><span class="s3">1</span><span class="s1">;</span>
+	<span class="s1">text-align: center;</span>
+	<span class="s1">font-size: </span><span class="s3">5</span><span class="s1">.</span><span class="s3">5</span><span class="s1">em;</span>
+	<span class="s1">font-weight: </span><span class="s3">750</span><span class="s1">;</span>
+<span class="s1">}</span>
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item h1 span{</span>
+    <span class="s1">color: #e83e8c;</span>
+    <span class="s1">font-weight: </span><span class="s3">750</span><span class="s1">;</span>
+
+    <span class="s1">}</span>
+
+<span class="s1">#carouselExampleIndicators .carousel-inner .carousel-item p{</span>
+	<span class="s1">height: auto;</span>
+	<span class="s1">color: #ccc;</span>
+	<span class="s1">width: </span><span class="s3">100</span><span class="s1">%;</span>
+	<span class="s1">z-index: </span><span class="s3">1</span><span class="s1">;</span>
+	<span class="s1">text-align: center;</span>
+	<span class="s1">font-size: </span><span class="s3">1</span><span class="s1">.</span><span class="s3">2</span><span class="s1">em;</span>
+	<span class="s1">font-weight: </span><span class="s3">500</span><span class="s1">;</span>
+<span class="s1">}</span>
+
+<span class="s1">.images-container {</span>
+    <span class="s1">display: flex;</span>
+    <span class="s1">justify-content: center;</span>
+    <span class="s1">align-items:center;</span>
+<span class="s1">}</span>
+
+<span class="s1">.images-container img{</span>
+    <span class="s1">margin-left:-</span><span class="s3">20</span><span class="s1">px;</span>
+    <span class="s1">margin-right:-</span><span class="s3">20</span><span class="s1">px;</span>
+<span class="s1">}</span>
+
+<span class="s1">.images-container figcaption</span>
+<span class="s1">{</span>
+    <span class="s1">text-align:center;</span>
+    <span class="s1">color:white;</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>

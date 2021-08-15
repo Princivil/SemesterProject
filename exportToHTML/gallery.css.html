@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>gallery.css</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.s2 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+gallery.css</font>
+</center></td></tr></table>
+<pre><span class="s0">@import url(</span><span class="s1">'https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&amp;display=swap'</span><span class="s0">);</span>
+<span class="s0">*{</span>
+	<span class="s0">margin: </span><span class="s2">20</span><span class="s0">;</span>
+	<span class="s0">padding: </span><span class="s2">20</span><span class="s0">;</span>
+	<span class="s0">box-sizing: border-box;</span>
+	<span class="s0">font-family: </span><span class="s1">'Poppins'</span><span class="s0">,sans-serif;</span>
+<span class="s0">}</span>
+<span class="s0">.header h1</span>
+<span class="s0">{</span>
+    <span class="s0">position:relative;</span>
+    <span class="s0">right:</span><span class="s2">400</span><span class="s0">px;</span>
+    <span class="s0">top:</span><span class="s2">0</span><span class="s0">px;</span>
+    <span class="s0">color: white;</span>
+    <span class="s0">font-size:</span><span class="s2">100</span><span class="s0">px;</span>
+<span class="s0">}</span>
+<span class="s0">.container</span>
+<span class="s0">{</span>
+  <span class="s0">width: </span><span class="s2">100</span><span class="s0">%;</span>
+  <span class="s0">margin: </span><span class="s2">2</span><span class="s0">rem auto;</span>
+<span class="s0">}</span>
+<span class="s0">.gallery</span>
+<span class="s0">{</span>
+    <span class="s0">display: grid;</span>
+    <span class="s0">grid-template-columns: repeat(</span><span class="s2">3</span><span class="s0">, </span><span class="s2">1</span><span class="s0">fr);</span>
+    <span class="s0">grid-template-rows: repeat(</span><span class="s2">3</span><span class="s0">, </span><span class="s2">5</span><span class="s0">vw);</span>
+    <span class="s0">grid-gap: </span><span class="s2">15</span><span class="s0">px;</span>
+<span class="s0">}</span>
+<span class="s0">.gallery-img</span>
+<span class="s0">{</span>
+    <span class="s0">width: </span><span class="s2">100</span><span class="s0">%;</span>
+    <span class="s0">height: </span><span class="s2">100</span><span class="s0">%;</span>
+    <span class="s0">object-fit: cover;</span>
+    <span class="s0">display:block;</span>
+    <span class="s0">filter:grayscale(</span><span class="s2">100</span><span class="s0">%);</span>
+    <span class="s0">transition: </span><span class="s2">1</span><span class="s0">s;</span>
+    <span class="s0">width:</span><span class="s2">300</span><span class="s0">px;</span>
+<span class="s0">}</span>
+<span class="s0">.gallery-img:hover</span>
+<span class="s0">{</span>
+    <span class="s0">z-index:</span><span class="s2">2</span><span class="s0">;</span>
+    <span class="s0">filter:grayscale(</span><span class="s2">0</span><span class="s0">%);</span>
+    <span class="s0">transform: scale(</span><span class="s2">2</span><span class="s0">);</span>
+<span class="s0">}</span></pre>
+</body>
+</html>
